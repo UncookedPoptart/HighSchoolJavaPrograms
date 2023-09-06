@@ -11,7 +11,7 @@ public class App {
 
         //adds image file and creates buffered image
         try {
-            img = ImageIO.read(new File("/Users/isaaclagoy/Documents/Photos/Galaxy.jpeg"));
+            img = ImageIO.read(new File("image name.jpeg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -76,7 +76,7 @@ public class App {
             }
 
             //adds image to homework folder
-            File file = new File("/Users/isaacLagoy/Documents/AmongUs/"+z+".jpeg");
+            File file = new File("folder for images"+z+".jpeg");
             ImageIO.write(newImg, "jpeg", file);
         }
     }
@@ -150,7 +150,7 @@ public class App {
             }
 
             //adds image to homework folder
-            File file = new File("/Users/isaacLagoy/Documents/AmongUs/"+z+".jpeg");
+            File file = new File("folder for image"+z+".jpeg");
             ImageIO.write(newImg, "jpeg", file);
         }
     }
@@ -160,7 +160,7 @@ public class App {
         //adds overlay bufferedimage
         BufferedImage solar = null;
         try {
-            solar = ImageIO.read(new File("/Users/isaaclagoy/Documents/Photos/Solar.jpg"));
+            solar = ImageIO.read(new File("image name.jpg"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -262,7 +262,7 @@ public class App {
             }
 
             //adds image to homework folder
-            File file = new File("/Users/isaacLagoy/Documents/AmongUs/"+z+".jpeg");
+            File file = new File("folder for image"+z+".jpeg");
             ImageIO.write(newImg, "jpeg", file);
         }
     }
