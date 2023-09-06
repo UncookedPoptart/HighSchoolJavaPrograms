@@ -4,7 +4,7 @@ import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 
-public class App {
+public class ColorRotation {
     private static Color[][] pixels;
     private static BufferedImage img;
     public static void main(String[] args) throws Exception {
