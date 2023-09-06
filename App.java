@@ -10,8 +10,8 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         //scans file from file pathway
-        Scanner dictionary = new Scanner(new File("/Users/isaaclagoy/Documents/Programs/PasswordCracker/Top-10000-Passwords.txt"));
-        Scanner file = new Scanner(new File("/Users/isaaclagoy/Documents/Programs/PasswordCracker/test_file.txt"));
+        Scanner dictionary = new Scanner(new File("path to Top-10000-Passwords.txt"));
+        Scanner file = new Scanner(new File("path to test_file.txt"));
 
         System.out.println();
         long start = System.currentTimeMillis();
