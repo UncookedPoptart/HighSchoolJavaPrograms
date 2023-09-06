@@ -1,7 +1,7 @@
 import java.util.*;
 import java.io.*;
 
-public class App {
+public class WordFinder {
 
     private static ArrayList<String> words = new ArrayList<String>();
     private static Node head = new Node("");
