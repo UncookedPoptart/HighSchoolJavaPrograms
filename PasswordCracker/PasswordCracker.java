@@ -5,7 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.util.*;
 
-public class App {
+public class PasswordCracker {
     
     public static void main(String[] args) throws Exception {
 
